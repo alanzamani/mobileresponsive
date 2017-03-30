@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style/bootstrap.css">
     <link rel="stylesheet" href="style/site.css" type="text/css">
+    <script src="script/jquery-3.1.1.js"></script>
+    <script src="script/bootstrap.js"></script>
     <title>Focus</title>
 </head>
 <body>
@@ -20,8 +23,24 @@
 <div class="top-written container">
     <h1>ONE BAG, 2PACK, THREE WAYS.</h1>
 </div>
-<div class="container">
-    <img src="images/Men-s-PU-leather-Business-Bag-Men-s-Shoulder-Bag-Casual-style-Men-s-leather-bag.jpg" alt="banner" class="banner-img">
+
+<div id="myCarousel" class="container carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/top-banner.jpg" alt="Office Bag">
+        </div>
+        <div class="item">
+            <img src="images/Soft-Leather-Weekender-Bag-03.jpg" alt="Travel Bag">
+        </div>
+        <div class="item">
+            <img src="images/Men-s-PU-leather-Business-Bag-Men-s-Shoulder-Bag-Casual-style-Men-s-leather-bag.jpg" alt="Document Bag">
+        </div>
+    </div>
 </div>
 
 
@@ -158,6 +177,7 @@
         <div class="footer-line"><h5><a href="#">TERMS</a> | <a href="#">PRIVACY</a> | <a href="#">UNSUBSCRIBE</a></h5></div>
     </div>
 </footer>  <!------------------------------------------------------------------------------- FOOTER << ----->
+
 
 
 </body>
